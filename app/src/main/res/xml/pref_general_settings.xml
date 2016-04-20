@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Preference
+        android:fragment="app.scan4us.com.scan4us.fragments.SettingsFragment$SettingsAccountFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:key="pref_start_action_account"
+        android:title="@string/pref_header_account"/>
+
+
+    <PreferenceCategory
+        android:title="@string/pref_category_title_advanced">
+
+
+        <Preference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="pref_start_action_notification"
+            android:title="@string/pref_title_manager_notification"/>
+
+        <Preference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="pref_start_action_opinion"
+            android:title="@string/pref_title_opinion"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/pref_category_title_information">
+
+        <Preference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="pref_start_action_help"
+            android:title="@string/pref_title_help"/>
+
+        <Preference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="pref_start_action_pilitics_privacy"
+            android:title="@string/pref_title_politics_privacy"/>
+
+        <Preference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="pref_start_action_terms_service"
+            android:title="@string/pref_title_terms_service"/>
+
+        <Preference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="pref_start_action_licenses"
+            android:title="@string/pref_title_licenses"/>
+
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory
+        android:title="@string/pref_category_title_advanced">
+
+
+        <Preference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="pref_start_action_locked"
+            android:title="@string/pref_title_locked"/>
+
+        <Preference
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:key="pref_start_action_close_account"
+            android:title="@string/pref_title_close_account"/>
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

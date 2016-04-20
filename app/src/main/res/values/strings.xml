@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- .............................Strings related to Activities..................................... -->
+
+    <string name="app_name">Scan4us</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_settings">Ajustes</string>
+
+    <!-- ....................................Strings related to Settings..................................-->
+
+
+    <!-- strings general settings -->
+    <string name="pref_header_account">Mi cuenta</string>
+    <string name="pref_category_title_advanced">Avanzado</string>
+    <string name="pref_title_manager_notification">Ajustes de las notificaciones</string>
+    <string name="pref_title_opinion">Deja tu opinión</string>
+    <string name="pref_category_title_information">Más información</string>
+    <string name="pref_title_help">Ayuda</string>
+    <string name="pref_title_politics_privacy">Política de privacidad</string>
+    <string name="pref_title_terms_service">Condiciones de servicio</string>
+    <string name="pref_title_licenses">Licencias</string>
+    <string name="pref_category_title_actions_account">Acciones de cuenta</string>
+    <string name="pref_title_locked">Bloqueado</string>
+    <string name="pref_title_close_account">Cerrar sesión</string>
+
+
+    <!-- strings settings for account -->
+    <string name="pref_title_name">Nombre</string>
+    <string name="pref_title_user_name">Nombre de usuario</string>
+    <string name="pref_title_birthday">Cumpleaños</string>
+    <string name="pref_title_number_mobile">Número del movil</string>
+    <string name="pref_title_email">Email</string>
+    <string name="pref_title_password">Contraseña</string>
+
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+
+
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+
+
+
+</resources>
