@@ -1,34 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fitsSystemWindows="true"
-    tools:context="app.scan4us.com.scan4us.MainActivity">
-
-    <android.support.design.widget.AppBarLayout
+    android:gravity="center_horizontal" android:orientation="vertical"
+    android:background="@drawable/p01_background"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+    
+    <LinearLayout android:gravity="center" android:layout_weight="0.3"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="match_parent">
+        
+        <ImageView android:src="@drawable/p01_logo"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
 
-        <android.support.v7.widget.Toolbar
-            android:id="@+id/toolbar"
-            android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:background="?attr/colorPrimary"
-            app:popupTheme="@style/AppTheme.PopupOverlay" />
+        <ImageView android:src="@drawable/p01_scan4us"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content" />        
+        
+    </LinearLayout>
+    
+    <LinearLayout android:gravity="center"
+        android:layout_weight="0.3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    </android.support.design.widget.AppBarLayout>
+        <TextView android:text="Monitoriza tu salud con
+tu escaner biometrico
+personal."
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+        
+    </LinearLayout>    
 
-    <include layout="@layout/content_main" />
+    <LinearLayout android:layout_weight="0.3"
+        android:layout_width="match_parent"
+        android:gravity="center" android:orientation="vertical"
+        android:layout_height="match_parent">
+        
+        <Button android:text="Registrate" android:padding="16dp"
+            android:textColor="@color/md_white"
+            android:background="@drawable/p02_signup_selector"
+            android:layout_width="150dp"
+            android:layout_marginBottom="4dp"
+            android:layout_height="wrap_content" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        android:src="@android:drawable/ic_dialog_email" />
+        <Button android:text="Entrar" android:padding="16dp"
+            android:textColor="@color/md_white"
+            android:background="@drawable/p02_login_selector"
+            android:layout_width="150dp"
+            android:layout_marginBottom="8dp"
+            android:layout_height="wrap_content" />
 
-</android.support.design.widget.CoordinatorLayout>
+        <TextView android:text="¿Olvidaste la contraseña?"
+            android:layout_width="wrap_content"
+            android:textStyle="italic"
+            android:textSize="14dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -5,7 +5,10 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
+    <color name="md_green">#92d14f</color>
+    <color name="md_green_pressed">#92d100</color>
 
+    <color name="md_white">#ffffff</color>
     <color name="md_blue_50">#e3f2fd</color>
     <color name="md_blue_100">#bbdefb</color>
     <color name="md_blue_200">#90caf9</color>
