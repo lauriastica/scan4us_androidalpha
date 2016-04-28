@@ -27,7 +27,7 @@
         android:layout_height="match_parent">
 
         <TextView android:text="Monitoriza tu salud con
-tu escaner biometrico
+tu escaner biométrico
 personal."
             android:layout_width="wrap_content"
             android:textAlignment="center"
@@ -41,7 +41,7 @@ personal."
         android:gravity="center" android:orientation="vertical"
         android:layout_height="match_parent">
         
-        <Button android:text="Registrate" android:padding="16dp"
+        <Button android:text="Regístrate" android:padding="16dp"
             android:textColor="@color/md_white"
             android:background="@drawable/p02_signup_selector"
             android:layout_width="150dp"
